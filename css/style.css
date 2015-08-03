@@ -1,0 +1,64 @@
+body{
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrap-up{
+  margin: 1em;
+}
+.commoncss{
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#btnupload {
+  font-size: 2.5em;
+  margin-top: 0.7em;
+  cursor: pointer;
+}
+.msg {
+  font-size: 1.5em;
+}
+.commoncss li {
+  list-style:none;
+  margin-bottom:1em;
+  margin-top:1em;
+}
+.imgCls{
+  height: 13em;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.imgCls img{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.overlay{
+  background: rgba(36,114,164,0.7) ;
+  bottom: 0;
+  color: white;
+  font-size: 3em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 1.5em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.overlay span{
+  cursor: pointer;
+}
